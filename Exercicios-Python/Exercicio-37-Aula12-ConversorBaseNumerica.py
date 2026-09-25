@@ -4,11 +4,11 @@ print('''Escolha uma das bases para conversão:
 [2] para OCTAL
 [3] para HEXADECIMAL''')
 opçao = int(input('digite a opção desejada: '))
-if opçao == 1: # a opção 1 vai converter o numero desejato para Binario.
+if opçao == 1: # a opção 1 vai converter o numero desejado para Binario.
     print('O numero {} convertido para BINARIO é igual a {}'.format(numero, bin(numero)[2:]))
-elif opçao == 2: # a opção 2 vai converter o numero desejato para Octal.
+elif opçao == 2: # a opção 2 vai converter o numero desejado para Octal.
     print('O numero {} convertido para OCTAL é igual a {}'.format(numero, oct(numero)[2:]))
-elif opçao == 3: # a opção 3 vai converter o numero desejato para Hexadecimal.
+elif opçao == 3: # a opção 3 vai converter o numero desejado para Hexadecimal.
     print('O numero {} convertido para HEXADECIMAL é igual a {}'.format(numero, hex(numero)[2:]))
 else:
     print('ERRO essa opção é INVALIDA')
