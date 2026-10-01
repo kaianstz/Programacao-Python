@@ -9,3 +9,4 @@ if eu == pc:
 else:
     print('Você Errou !!!')
     print('O Computador pensou no número: {} Tente novamente.'.format(pc))
+    
